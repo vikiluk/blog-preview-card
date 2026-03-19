@@ -68,6 +68,12 @@ body {
     cursor: pointer;
 }
 
+.card-title a:focus-visible {
+    outline: 3px solid #111111;
+    outline-offset: 3px;
+    border-radius: 4px;
+}
+
 .card-text {
     color: #6B6B6B;
     font-family: Figtree;
@@ -111,6 +117,13 @@ body {
     color: #F4D04E;
     cursor: pointer;
 }
+
+.author-name a:focus-visible {
+    outline: 3px solid #111111;
+    outline-offset: 3px;
+    border-radius: 4px;
+}
+
 
 @font-face {
   font-family: 'Figtree';
