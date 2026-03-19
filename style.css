@@ -36,7 +36,7 @@ body {
     padding: 0.25rem 0.75rem;
     border-radius: 0.25rem;
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
     line-height: 150%;
 }
 
@@ -58,6 +58,12 @@ body {
     line-height: 150%;
 }
 
+.card-title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 .card-title:hover {
     color: #F4D04E;
     cursor: pointer;
@@ -68,7 +74,6 @@ body {
     font-family: Figtree;
     font-size: 1rem;
     font-weight: 500;
-    margin-top: 0.5rem;
     line-height: 150%;
 }
 
@@ -96,6 +101,12 @@ body {
     margin-top: 0.5rem;
     line-height: 150%;
 }
+
+.author-name a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 .author-name:hover {
     color: #F4D04E;
