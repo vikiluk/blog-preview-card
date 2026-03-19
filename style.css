@@ -10,10 +10,9 @@ body {
 
 .sr-only {
   position: absolute;
-  width: 1px;
-  height: 1px;
+  width: 1vh;
+  height: 1vh;
   padding: 0;
-  margin: -1px;
   overflow: hidden;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -24,8 +23,10 @@ body {
 .card {
   background-color: #FFFFFF;
   border-radius: 1.25rem;
-  width: 21rem;
+  max-width: 21rem;
+  width: 100%;
   padding: 1.5rem;
+  box-sizing: border-box;
   box-shadow: 10px 10px 0px #111111;
   border: 1px solid #111111;
 }
@@ -124,14 +125,9 @@ body {
     cursor: pointer;
 }
 
-a:focus-visible,
-button:focus-visible,
-input:focus-visible,
-select:focus-visible,
-textarea:focus-visible {
+:is(a, button, input, select, textarea):focus-visible {
   outline: 0.1875rem solid #111111;
   outline-offset: 0.1875rem;
-  border-radius: 0.25rem;
 }
 
 a:focus,
