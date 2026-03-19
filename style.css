@@ -124,25 +124,23 @@ body {
     cursor: pointer;
 }
 
-a:focus-visible {
-    outline: 0.1875rem solid #FFFFFF;
-    outline-offset: 0.1875rem;
-    border-radius: 0.25rem;
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 0.1875rem solid #FFFFFF;
+  outline-offset: 0.1875rem;
+  border-radius: 0.25rem;
 }
 
-a:focus {
-    outline: 0.1875rem solid #FFFFFF;
-    outline-offset: 0.1875rem;
-    border-radius: 0.25rem;
-}
-
-.author-name a:focus-visible,
-.author-name a:focus,
-.header a:focus-visible,
-.header a:focus {
-    outline: 0.1875rem solid #FFFFFF;
-    outline-offset: 0.1875rem;
-    border-radius: 0.25rem;
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 0.1875rem solid #FFFFFF;
+  outline-offset: 0.1875rem;
 }
 
 @font-face {
