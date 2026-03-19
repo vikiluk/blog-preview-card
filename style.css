@@ -139,8 +139,9 @@ button:focus,
 input:focus,
 select:focus,
 textarea:focus {
-  box-shadow: 0 0 0 3px rgba(255,191,71,0.25);
-  border-radius: 4px;
+  outline: 0.1875rem solid #111111;
+  outline-offset: 0.1875rem;
+  border-radius: 0.25rem;
 }
 
 @font-face {
