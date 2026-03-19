@@ -10,10 +10,9 @@ body {
 
 .sr-only {
   position: absolute;
-  width: 1px;
-  height: 1px;
+  width: 1rem;
+  height: 1rem;
   padding: 0;
-  margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
@@ -42,7 +41,7 @@ body {
 .learning-tag {
     background-color: #F4D04E;
     color: #111111;
-    font-family: Figtree;
+    font-family: "Figtree", Arial, sans-serif;
     font-size: 0.875rem;
     font-weight: 800;
     padding: 0.25rem 0.75rem;
@@ -54,7 +53,7 @@ body {
 
 .published-date {
     color: #111111;
-    font-family: Figtree;
+    font-family: "Figtree", Arial, sans-serif;
     font-size: 0.875rem;
     font-weight: 500;
     margin-top: 0.8rem;
@@ -63,7 +62,7 @@ body {
 
 .card-title {
     color: #111111;
-    font-family: Figtree;
+    font-family: "Figtree", Arial, sans-serif;
     font-size: 1.5rem;
     font-weight: 800;
     margin-top: 0.5rem;
@@ -75,26 +74,26 @@ body {
     color: inherit;
 }
 
+.card-title a:focus {
+    outline: 0,1875rem solid #111111;
+    outline-offset: 0,1875rem;
+    border-radius: 0,25rem;
+}
+
+.card-title a:focus-visible {
+    outline: 0,1875rem solid #111111;
+    outline-offset: 0,1875rem;
+    border-radius: 0,25rem;
+}
+
 .card-title:hover {
     color: #F4D04E;
     cursor: pointer;
 }
 
-.card-title a:focus {
-    outline: 3px solid #111111;
-    outline-offset: 3px;
-    border-radius: 4px;
-}
-
-.card-title a:focus-visible {
-    outline: 3px solid #111111;
-    outline-offset: 3px;
-    border-radius: 4px;
-}
-
 .card-text {
     color: #6B6B6B;
-    font-family: Figtree;
+    font-family: "Figtree", Arial, sans-serif;
     font-size: 1rem;
     font-weight: 500;
     line-height: 150%;
@@ -115,7 +114,7 @@ body {
 
 .author-name {
     color: #111111;
-    font-family: Figtree;
+    font-family: "Figtree", Arial, sans-serif;
     font-size: 0.875rem;
     font-weight: 800;
     padding: 0.25rem 0rem;
@@ -130,32 +129,45 @@ body {
     color: inherit;
 }
 
+.author-name a:focus {
+    outline: 0,1875rem solid #111111;
+    outline-offset: 0,1875rem;
+    border-radius: 0,25rem;
+}
+
+.author-name a:focus-visible {
+    outline: 0,1875rem solid #111111;
+    outline-offset: 0,1875rem;
+    border-radius: 0,25rem;
+}
 
 .author-name:hover {
     color: #F4D04E;
     cursor: pointer;
 }
 
-.author-name a:focus {
-    outline: 3px solid #111111;
-    outline-offset: 3px;
-    border-radius: 4px;
+a:focus-visible {
+    outline: 0,1875rem solid #111111;
+    outline-offset: 0,1875rem;
+    border-radius: 0,25rem;
 }
 
-.author-name a:focus-visible {
-    outline: 3px solid #111111;
-    outline-offset: 3px;
-    border-radius: 4px;
+a:focus {
+    outline: 0,1875rem solid #111111;
+    outline-offset: 0,1875rem;
+    border-radius: 0,25rem;
 }
 
 @font-face {
   font-family: 'Figtree';
   src: url('./assets/fonts/static/Figtree-ExtraBold.ttf');
   font-weight: 800;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Figtree';
   src: url('./assets/fonts/static/Figtree-Medium.ttf');
   font-weight: 500;
+  font-display: swap;
 }
