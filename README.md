@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](#)
-- [Live Site URL](#)
+- [Solution URL](https://github.com/vikiluk/blog-preview-card)
+- [Live Site URL](https://vikiluk.github.io/blog-preview-card)
 
 ## My process
 
