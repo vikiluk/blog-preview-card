@@ -1,0 +1,112 @@
+body {
+  background-color: #F4D04E;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: #FFFFFF;
+  border-radius: 1.25rem;
+  width: 24rem;
+
+  padding: 1.5rem;
+  box-shadow: 10px 10px 0px #111111;
+  border: 1px solid #111111;
+}
+
+.card__image {
+    width: 100%;
+    border-radius: 0.625rem;
+    display: block;
+}
+
+.learning-tag {
+    background-color: #F4D04E;
+    color: #111111;
+    font-family: Figtree;
+    font-size: 0.875rem;
+    font-weight: 800;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    display: inline-block;
+    margin-top: 1rem;
+    line-height: 150%;
+}
+
+.published-date {
+    color: #111111;
+    font-family: Figtree;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    line-height: 150%;
+}
+
+.card-title {
+    color: #111111;
+    font-family: Figtree;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 0.5rem;
+    line-height: 150%;
+}
+
+.card-title:hover {
+    color: #F4D04E;
+    cursor: pointer;
+}
+
+.card-text {
+    color: #6B6B6B;
+    font-family: Figtree;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    line-height: 150%;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author-picture {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.author-name {
+    color: #111111;
+    font-family: Figtree;
+    font-size: 0.875rem;
+    font-weight: 800;
+    padding: 0.25rem 0rem;
+    border-radius: 0.25rem;
+    display: inline-block;
+    margin-top: 0.5rem;
+    line-height: 150%;
+}
+
+.author-name:hover {
+    color: #F4D04E;
+    cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/static/Figtree-ExtraBold.ttf');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/static/Figtree-Medium.ttf');
+  font-weight: 500;
+}
