@@ -144,6 +144,10 @@ textarea:focus {
   border-radius: 0.25rem;
 }
 
+a:focus:not(:focus-visible) {
+  outline: none;
+}
+
 @font-face {
   font-family: 'Figtree';
   src: url('./assets/fonts/static/Figtree-ExtraBold.ttf');
